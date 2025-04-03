@@ -33,9 +33,50 @@ div#production-pipeline-wrapper {
 div#production-video-wrapper {
     width: 100%;
     height: 40vh;
+    margin-bottom: 4rem;
 }
 
 video#production-video {
     height: 80%;
     padding-top: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    div#production-wrapper {
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    div#production-pipeline-content {
+        width: 80%;
+        text-align: center;
+    }
+
+    div#production-pipeline-wrapper {
+        width: 90%;
+    }
+
+    div#production-video-wrapper {
+        height: auto;
+    }
+
+    video#production-video {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div#production-pipeline-content {
+        width: 90%;
+    }
+
+    div#production-pipeline-wrapper {
+        width: 95%;
+        height: 15vh;
+    }
+
+    video#production-video {
+        width: 95%;
+    }
 }

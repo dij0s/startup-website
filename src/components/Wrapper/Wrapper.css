@@ -24,7 +24,19 @@ div#inner-wrapper {
 }
 
 div#footer-wrapper {
-    width: 40%;
+    width: 60%;
     padding: 2rem 0px;
-    border-top: 1px solid var(--secondary-foreground-color);
+    border-top: 1px solid rgba(220, 220, 220, 1);
+}
+
+@media screen and (max-width: 768px) {
+    div#footer-wrapper {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div#header-wrapper {
+        height: 80px;
+    }
 }

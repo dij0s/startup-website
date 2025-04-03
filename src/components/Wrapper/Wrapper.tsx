@@ -14,7 +14,8 @@ function Wrapper({ children }: WrapperProps) {
         <div id="inner-wrapper">{children}</div>
         <div id="footer-wrapper">
           Contact us{" "}
-          <a href="mailto:6six.figures.noreply@gmail.com">@6figures</a>
+          <a href="mailto:6six.figures.noreply@gmail.com">@6figures</a> for
+          further exciting news and updates!
         </div>
       </div>
     </div>

@@ -6,8 +6,8 @@ function Production() {
       <div id="production-content-wrapper">
         <div id="production-pipeline-content">
           <h2>
-            Describe your idea, and our AI generates a 3D model. We craft it
-            with precision and deliver it to your doorstep
+            Share your vision, and watch as AI creates your 3D design. We
+            perfect every detail before shipping your creation straight to you
           </h2>
         </div>
         <div id="production-pipeline-wrapper"></div>

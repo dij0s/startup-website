@@ -1,0 +1,30 @@
+div#wrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#header-wrapper {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    background: rgba(245, 245, 245, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(245, 245, 245, 0.1);
+}
+
+div#inner-wrapper {
+    width: 100vw;
+}
+
+div#footer-wrapper {
+    width: 40%;
+    padding: 2rem 0px;
+    border-top: 1px solid var(--secondary-foreground-color);
+}

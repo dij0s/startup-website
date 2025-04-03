@@ -1,0 +1,41 @@
+div#production-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#production-content-wrapper {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#production-pipeline-content {
+    width: 40%;
+    padding-bottom: 1rem;
+}
+
+div#production-pipeline-wrapper {
+    width: 80%;
+    height: 20vh;
+    background-image: url("/src/assets/pipeline.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+div#production-video-wrapper {
+    width: 100%;
+    height: 40vh;
+}
+
+video#production-video {
+    height: 80%;
+    padding-top: 1rem;
+}
